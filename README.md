@@ -3,7 +3,7 @@
 [![https://telegram.me/@MrMike_O](https://img.shields.io/badge/💬%20Telegram-MrMike__O-blue.svg)](https://telegram.me/@MrMike_O)
 
 
-A Promised NodeJS Module for connecting with the HitBTC Restful API (v2)
+A Promised NodeJS Module for connecting with the HotBit.io Restful API 
 
 
 ## Install via git
@@ -18,7 +18,7 @@ node example.js
 example.js:
 ```
 const hotbitApi = require("./lib/hotbitApi");
-const restapi = new hotbitApi.default();
+const restapi = new hotbitApi.default(key, secret);
 
 
 (async () => {
@@ -37,7 +37,7 @@ npm install --save https://github.com/mrmikeo/nodehotbitapi
 
 ```
 const hotbitApi = require("nodeHotBitApi");
-const restapi = new hotbitApi.default();
+const restapi = new hotbitApi.default(key, secret);
 
 
 (async () => {
